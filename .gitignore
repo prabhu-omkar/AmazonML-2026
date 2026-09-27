@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Competition dataset (too large for git — download from the Amazon ML Challenge portal)
+dataset/
+student_resource/
+
+# Working directory (generated intermediate data)
+work/
+work*/
+
+# Output directories (generated results)
+output/
+output_*/
+OUT_*/
+
+# Kaggle artifacts
+kaggle_out/
+kaggle_upload*/
+
+# Model checkpoints and large binary files
+*.pkl
+*.npy
+*.parquet
+*.model
+*.bin
+ce_model/
+
+# Logs
+logs/
+*.log
+
+# Packaging
+package_*/
+
+# Misc
+*.zip
+*.gz
+_to_delete/
+_transfer/
+__MACOSX/

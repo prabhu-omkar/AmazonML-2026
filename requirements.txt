@@ -1,0 +1,17 @@
+# Python 3.14
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+pyarrow==25.0.1
+rapidfuzz==3.14.6
+# cross-encoders (intfloat/multilingual-e5-base, intfloat/multilingual-e5-large); local versions below,
+# the Kaggle runs used the versions preinstalled in the Kaggle GPU image
+# torch: CUDA 12.6 build, install with  --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.0
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+huggingface_hub==1.33.0
+accelerate==1.15.0
