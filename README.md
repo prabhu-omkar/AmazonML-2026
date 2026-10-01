@@ -28,7 +28,7 @@ variations, leetspeak typos, address inconsistencies, and an **entirely unseen c
 │                                                                  │                  │
 │                                                         Global Threshold            │
 │                                                                  │                  │
-│                                                          matching_results.tsv        │
+│                                                          matching_results.tsv       │
 └─────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
